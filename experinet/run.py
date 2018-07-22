@@ -40,6 +40,8 @@ def run_experiments_by_dir(directory, recursive=False, silent=False):
     if silent:
         _print = lambda x: x  # noqa: E731
     _print("Starting to run experiments in directory {}".format(directory))
+    _print("Discovering experiments{}...".format(
+        " recursively" if recursive else ""))
     experiment_files = _experiment_files_by_dir(directory, recursive)
     _print("{} experiment files found:\n{}".format(
         len(experiment_files), experiment_files))
