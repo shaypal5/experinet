@@ -21,7 +21,7 @@ EXP_DOC = "Run all experiments in the given directory."
               help="Recurse into sub-directories in experiment discovery.")
 @click.option('--silent/--verbose', default=False,
               help="Don't print any messages to screen.")
-def experiment(directory, recursive, silent):
+def bydir(directory, recursive, silent):
     """{}""".format(EXP_DOC)
     experinet.run_experiments_by_dir(
         directory=directory, recursive=recursive, silent=silent)
