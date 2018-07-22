@@ -8,7 +8,7 @@ Synthetic network theory experiment.
 
 .. code-block:: python
 
-  >>> experinet.run_experiment(
+  experinet.run_experiment(
     {
         'entry': {
             'type': 'generate',
@@ -16,6 +16,7 @@ Synthetic network theory experiment.
             'd': 2,
         }
     }
+  )
 
 .. contents::
 
