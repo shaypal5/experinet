@@ -39,7 +39,6 @@ setuptools.setup(
         'test': TEST_REQUIRES + INSTALL_REQUIRES,
         # 'fasttext': FT_REQUIRES,
     },
-
     entry_points='''
         [console_scripts]
         experinet=scripts.experinet_cli:cli

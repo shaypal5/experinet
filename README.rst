@@ -4,7 +4,7 @@ experinet
 
 .. .. |experinet_icon| image:: https://github.com/shaypal5/experinet/blob/88d480fd90820ea58c062029ce7e926201794e47/experinet_small.png
 
-Synthetic network theory experiment management,
+Synthetic network theory experiment.
 
 .. code-block:: python
 
